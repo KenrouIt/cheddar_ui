@@ -3,6 +3,9 @@ name: deployment
 on:
   push:
     branches: [ "main" ]
+
+permissions: 
+  pages: write
   
 jobs:
   deploy:
